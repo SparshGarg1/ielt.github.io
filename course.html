@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- awesone font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="logo" ><a href="index.html">English<span>Savviness.</span></a></div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Courses</h1>
+    </section>
+   
+    <!-- Our Courses -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>The objective of the class are to increase confidence, enhance core english skills and to provide a continued platform for stuudents language learning.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>IELTS</h3>
+                <P>At New Edge, we coach candidates on listening, reading, writing, face-to-face interview. Get IELTS Trained by Certified Faculty and Beat the High Score. Improve their listening, speaking, academic reading and writing skills. Develop test-taking strategies specifically for the IELTS® test. Improve your IELTS® test scores in all four skills.</P>
+            </div>
+            <div class="course-col">
+                <h3>Advance English</h3>
+               <P>The Advanced English Course Level is focused on developing your fluency and accuracy abilities, and to helping you reach a level of competence that will allow you to interact with a variety of more challenging, sophisticated current topics.</P>
+            </div>
+            <div class="course-col">
+                <h3>Competitive Exam English Course</h3>
+                <P>The course aims to help participants develop their English language skills , particularly those planning to appear for competitive exams that test their English language abilities. Students will be exposed to material that facilitates aspects of grammar, writing and vocabulary.</P>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <h3>Business English</h3>
+                <P>Studying business English allows you to develop English language skills that are useful in an office or other business environments. By understanding the communication skills needed in the workplace, you can gain the confidence to build strong relationships with your colleagues and clients.</P>
+            </div>
+            <div class="course-col">
+                <h3>CV/Resume Creation</h3>
+<p>A resume is a formal document that a job applicant creates to itemize their qualifications for a position. A resume is usually accompanied by a customized cover letter in which the applicant expresses an interest in a specific job or company and draws attention to the most relevant specifics on the resume.</p>
+            </div>
+            <div class="course-col">
+                <h3>English Classes</h3>
+<p>English Speaking Classes provide study material required for all kind of practice for English. Getting the right material is the most important thing as you do not want to end up studying the outdated material. Coaching classes will provide you with the latest content allowing you to master the English language.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>
+            Our Facilities
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, eaque?</p>
+        <div class="row">
+            <div class="facilities-col">
+               <img src="img/studymaterial.png" alt="" height="200px" width="200px">
+               <h3>Study Material</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p>
+            </div>
+            <div class="facilities-col">
+               <img src="img/download.jpg" alt="" height="200px" width="200px">
+               <h3>Doubt Solving</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p>
+            </div>
+            <div class="facilities-col">
+               <img src="img/faculty.jpg" alt=""  height="200px" width="200px">
+               <h3>Experienced Faculty</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>
+        We are a professional team of experienced IELTS Tutor in Indore. Our team of dedicated trainers develops the course content in-house. Our course content is based on the most current standards & student requirements. We constantly upgrade our education program to suit the constantly changing industry needs.
+        </p>
+        <p>
+            Our training approach is highly result oriented and student-centric. Our team of certified & experienced teachers is always available to help students clarify any doubts and help them achieve the best scores.. We also conduct student workshops and arrange additional practice sessions and mock tests as and when required. We also provide additional study material and online resources to help students excel in their scores.
+        
+        </p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>&copy; <em id="date"></em>englishsavviness</p>
+    <!-- <p>Made By <i class="fa fa-heart-o" aria-hidden="true"></i> Sparsh Garg</p> -->
+    <p>Made By <i class="" aria-hidden="true"></i> Sparsh Garg</p>
+
+</section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

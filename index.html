@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- awesone font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <!-- <a href="index.html"><img src="img/logo.png" alt=""></a> -->
+            <div class="logo" ><a href="index.html">English<span>Savviness.</span></a></div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <!-- <div class="text-box">
+            <h1>ABCD</h1>
+            <p>Eduford has been a brand name in the arena of technical education. Since its inception in July 2000, Eduford has consistently aimed at creating an ideal ambiance for budding technocrats and managers; and helping them to grow like true professionals. With its highly qualified faculty there seems an optimal blend of academic brilliance and industry exposure, supplemented by highly specialized visiting faculty and industry experts, senior professionals from various segments of different industries and business houses. It was time now to spread wings and move out for more exposure and widening of the periphery.
+                Hence the foundation of Eduford University has been laid down. With a strong foundation of the Group since 15 years, Eduford University wishes to maintain the same objective of imparting quality education and producing sound professionals for the benefit of the society at large.</p> 
+            <a href="" class="hero-btn">Visit us to Know more</a>
+        </div> -->
+    </section>
+    <!-- Course -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>The objective of the class are to increase confidence, enhance core english skills and to provide a continued platform for stuudents language learning.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>IELTS</h3>
+                <P>At New Edge, we coach candidates on listening, reading, writing, face-to-face interview. Get IELTS Trained by Certified Faculty and Beat the High Score. Improve their listening, speaking, academic reading and writing skills. Develop test-taking strategies specifically for the IELTS® test. Improve your IELTS® test scores in all four skills.</P>
+            </div>
+            <div class="course-col">
+                <h3>Advance English</h3>
+               <P>The Advanced English Course Level is focused on developing your fluency and accuracy abilities, and to helping you reach a level of competence that will allow you to interact with a variety of more challenging, sophisticated current topics.</P>
+            </div>
+            <div class="course-col">
+                <h3>Competitive Exam English Course</h3>
+                <P>The course aims to help participants develop their English language skills , particularly those planning to appear for competitive exams that test their English language abilities. Students will be exposed to material that facilitates aspects of grammar, writing and vocabulary.</P>
+            </div>
+        </div>
+    </section>
+
+<!-- campus
+<section class="campus">
+    <h1>Our Head Office</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, laudantium!</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="img/london.png" alt="">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/newyork.png" alt="">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/washington.png" alt="">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- Facilities -->
+<section class="facilities">
+    <h1>
+        Our Facilities
+    </h1>
+    <p>Thoughtfully designed to provide students with a vibrant learning atmosphere.</p>
+    <div class="row">
+        <div class="facilities-col">
+           <img src="img/studymaterial.png" alt="" height="200px" width="200px">
+           <h3>Study Material</h3>
+           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p> -->
+        </div>
+        <div class="facilities-col">
+           <img src="img/download.jpg" alt="" height="200px" width="200px">
+           <h3>Doubt Solving</h3>
+           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p> -->
+        </div>
+        <div class="facilities-col">
+           <img src="img/faculty.jpg" alt=""  height="200px" width="200px">
+           <h3>Experienced Faculty</h3>
+           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p> -->
+        </div>
+    </div>
+</section>
+
+<section class="testinomial">
+    <h1>What Our Student Says</h1>
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, recusandae.</p> -->
+    <div class="test-cols">
+        <img src="img/testmale.jpg" alt="">
+        <div>
+<p>Preparing for IELTS from English Savviness was a great experience. Ms.Pooja ma'am has put her efforts and provide helpful guidance. She gave me valuable advices like to refer The Hindi news paper which helped me to improve my English learning, understanding and speaking skills. Ma'am has provided different concepts which helped in developing skills. Ma'am understood my pattern of learning and taught me according to that. I stay in Nirmal which is in Telangana state and got classes through online.</p>
+        <h3>Nimish Shah</h3>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+</div>
+    </div>
+    <!-- <div class="test-cols">
+        <img src="img/testmale.png" alt="">
+        <div>
+<p>Whatta english coaching class. i mean just wow. Before coming here my english was so obscured, but now, its just at the head of the curve.
+</p>
+        <h3>Chitransh</h3>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+</div>
+    </div>
+    <div class="test-cols">
+        <img src="img/testmale.png" alt="">
+        <div>
+<p>It`s a good IELTS coaching center.ma`am provides English materials and she has got certification from British council.</p>
+        <h3>Rahul Bhalla</h3>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+</div>
+    </div> -->
+    <div class="test-cols">
+        <img src="img/testmale.jpg" alt="">
+        <div>
+<p>Preparing for IELTS at English Savviness was a great experience and performed a pivotal role in attaining excellent band score of 8 at my very first attempt. Ms. Pooja at English Savviness put in every possible effort and provided helpful guidance. She gave me valuable tactical advice regarding which topics to study when, and gave me only the best questions to do so that I didn't waste my time on basic stuff repetitively. Different concepts helped in developing skills and strategy. She understood my pattern of learning, and taught me accordingly. All the guidance students require excelling in IELTS, English Savviness is the right place for them.</p>
+            <h3>Vikas</h3>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+</div>
+    </div>
+    <div class="test-cols">
+        <img src="img/testmale.jpg" alt="">
+        <div>
+<p>Best Institute to develop all round skills on English language- Speaking, Writing, Reading and Listening. Practice real question papers of International Exams like IELTS. IELTS certified trainers help you out to understand the scoring pattern of the Exam and Do's and Don'ts. Course customization is available that is awesome, you can create your own course as per your requirement. Trainers are ex-HR employees so quite often you get titbits on interview preparation and how to carry a positive body language, that's an added advantage. Institute located in a peaceful locality with good audio visual equipment that provides ease in learning.</p>
+        <h3>Joy Das</h3>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+</div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta">
+    <h1>Enroll for our varoius online and offline <br> Courses Anywhere from the world</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<section class="con-us">
+    <div class="row">
+        <div class="con-col">
+            <div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span>
+                    <h5>LG 36, BCM Hieghts, Vijay Nagar, Indore - 452010, Near Satya Sai Square</h5>
+                    <p>Indore, Madhya Pradesh, India</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                    <h5>0731 4968429</h5>
+                    <h5>+91 9669826056</h5>
+                    <p>Monday to Saturday, 10AM to 7PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <span>
+                    <h5>englishsavviness@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="con-col"></div>
+    </div>
+</section>
+<!-- Footer -->
+<section class="footer">
+    <h1>About Us</h1>
+<p>
+We are a professional team of experienced IELTS Tutor in Indore. Our team of dedicated trainers develops the course content in-house. Our course content is based on the most current standards & student requirements. We constantly upgrade our education program to suit the constantly changing industry needs.
+</p>
+<p>
+    Our training approach is highly result oriented and student-centric. Our team of certified & experienced teachers is always available to help students clarify any doubts and help them achieve the best scores.. We also conduct student workshops and arrange additional practice sessions and mock tests as and when required. We also provide additional study material and online resources to help students excel in their scores.
+
+</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>&copy; <em id="date"></em>englishsavviness</p>
+    <p>Made By <i class="" aria-hidden="true"></i> Sparsh Garg</p>
+</section>
+
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
