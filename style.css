@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none !important;
+  }
 .header
 {
     min-height: 100vh;
@@ -143,7 +146,14 @@ nav .fa{
     }
 
 }
-
+/* about */
+.about{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
 /* course */
 
 .course{
@@ -159,7 +169,7 @@ h1{
 }
 
 p{
-    color: #777;
+    color: #2c2929;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -505,3 +515,16 @@ h3{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.footer_c{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  
